@@ -1,7 +1,7 @@
 import styled, { createGlobalStyle } from "styled-components"
 
 export const Primary = styled.main`
-  padding: 110px 0 0 0;
+  padding: 110px 1rem 0 1rem;
 `
 
 export const GlobalStyles = createGlobalStyle`
@@ -612,7 +612,6 @@ export const GlobalStyles = createGlobalStyle`
   @media only screen and (max-width: 480px) {
     html {
       font-size: 100%;
-      padding: 0 5%;
     }
   }
 }
