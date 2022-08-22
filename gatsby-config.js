@@ -34,7 +34,6 @@ module.exports = {
       resolve: `gatsby-source-wordpress`,
       options: {
         url: `http://cakeit.terrymarr.com/graphql`,
-        //url: `https://shortgal.com/graphql`,
       },
     },
     `gatsby-plugin-styled-components`,

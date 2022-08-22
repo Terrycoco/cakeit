@@ -612,6 +612,7 @@ export const GlobalStyles = createGlobalStyle`
   @media only screen and (max-width: 480px) {
     html {
       font-size: 100%;
+      padding: 0 5%;
     }
   }
 }
