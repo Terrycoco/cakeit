@@ -613,6 +613,9 @@ export const GlobalStyles = createGlobalStyle`
     html {
       font-size: 100%;
     }
+    main {
+      padding: 0 1rem 1rem 1rem;
+    }
   }
 }
 `
