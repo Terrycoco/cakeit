@@ -614,5 +614,6 @@ export const GlobalStyles = createGlobalStyle`
 }
 `
 export const Primary = styled.main`
+  display: block;
   padding: 110px 10px 0 10px;
 `
