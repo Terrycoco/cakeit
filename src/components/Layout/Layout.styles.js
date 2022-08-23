@@ -1,7 +1,7 @@
 import styled, { createGlobalStyle } from "styled-components"
 
 export const Primary = styled.main`
-  padding: 110px 1rem 0 1rem;
+  padding: 110px 5px 0 5px;
 `
 
 export const GlobalStyles = createGlobalStyle`
