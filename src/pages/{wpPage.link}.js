@@ -14,7 +14,7 @@ import {
 const Wrapper = styled.div`
   max-width: 1180px;
   margin: 0 auto;
-  padding: 20pox;
+  padding: 20px;
 `
 
 const ContentWrapper = styled.div`
