@@ -25,7 +25,7 @@ const ContentWrapper = styled.div`
 `
 
 const PageContent = styled.article`
-  margin: 20px 0 0 0;
+  margin: 20px 10px 0 10px;
 `
 
 const PageTemplate = ({ data }) => {

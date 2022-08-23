@@ -9,6 +9,7 @@ export const Wrapper = styled.div`
 
 export const ContentWrapper = styled.div`
   display: block;
+  padding: 0 10px 0 10px;
 
   @media (min-width: 992px) {
     display: flex;
