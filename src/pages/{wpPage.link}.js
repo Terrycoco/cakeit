@@ -15,6 +15,10 @@ const Wrapper = styled.div`
   max-width: 1180px;
   margin: 0 auto;
   padding: 20px;
+  @media (min-width: 992px) {
+    display: flex;
+    padding: 0 10px 0 10px;
+  }
 `
 
 const ContentWrapper = styled.div`
