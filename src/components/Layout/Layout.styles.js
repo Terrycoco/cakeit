@@ -1,9 +1,5 @@
 import styled, { createGlobalStyle } from "styled-components"
 
-export const Primary = styled.main`
-  padding: 110px 5px 0 5px;
-`
-
 export const GlobalStyles = createGlobalStyle`
 {
   html {
@@ -613,9 +609,10 @@ export const GlobalStyles = createGlobalStyle`
     html {
       font-size: 100%;
     }
-    main {
-      padding: 0 1rem 1rem 1rem;
-    }
+    
   }
 }
+`
+export const Primary = styled.main`
+  padding: 110px 10px 0 10px;
 `
