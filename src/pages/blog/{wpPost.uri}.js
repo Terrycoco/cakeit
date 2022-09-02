@@ -48,7 +48,7 @@ const PostPageTemplate = ({ data }) => {
   const featuredImage = post.featuredImage
     ? post.featuredImage.node.localFile.publicURL
     : null
-  console.log("imgdata: ", post.featuredImage)
+  // console.log("imgdata: ", post.featuredImage)
 
   return (
     <Layout>

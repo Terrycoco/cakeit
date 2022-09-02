@@ -1,3 +1,7 @@
+require("dotenv").config({
+  path: `.env.${process.env.NODE_ENV}`,
+})
+
 module.exports = {
   siteMetadata: {
     title: `CakeIt Tutorial`,
@@ -33,7 +37,8 @@ module.exports = {
     {
       resolve: `gatsby-source-wordpress`,
       options: {
-        url: `https://wp.cakeit.terrymarr.com/graphql`,
+        //url: `https://wp.cakeit.terrymarr.com/graphql`,
+        url: process.env.WP_DATA_URL,
       },
     },
     `gatsby-plugin-styled-components`,

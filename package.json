@@ -5,7 +5,9 @@
   "version": "0.1.0",
   "author": "coco",
   "dependencies": {
+    "apollo-boost": "^0.4.9",
     "babel-plugin-styled-components": "^2.0.7",
+    "dotenv": "^16.0.2",
     "gatsby": "^4.19.2",
     "gatsby-plugin-gatsby-cloud": "^4.19.0",
     "gatsby-plugin-google-fonts": "^1.0.1",
@@ -18,8 +20,10 @@
     "gatsby-source-filesystem": "^4.19.0",
     "gatsby-source-wordpress": "^6.19.0",
     "gatsby-transformer-sharp": "^4.19.0",
+    "graphql-tag": "^2.12.6",
     "prop-types": "^15.8.1",
     "react": "^18.1.0",
+    "react-apollo": "^3.1.5",
     "react-dom": "^18.1.0",
     "react-helmet": "^6.1.0",
     "styled-components": "^5.3.5"

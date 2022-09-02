@@ -33,7 +33,7 @@ const PageContent = styled.article`
 `
 
 const PageTemplate = ({ data }) => {
-  // console.log("data imported:", data)
+  console.log("data imported:", data)
   const currentPage = data.wpPage
   const hasChildren =
     currentPage.wpChildren.nodes && currentPage.wpChildren.nodes.length > 0

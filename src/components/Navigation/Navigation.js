@@ -44,6 +44,11 @@ const Navigation = ({ items }) => {
         {items.map(item => {
           return renderParent(item)
         })}
+        <li id="contact" key="contact">
+          <Link to="/contact" key="key-contact" activeClassName="nav-active">
+            Contact
+          </Link>
+        </li>
       </ul>
     </NavigationWrapper>
   )

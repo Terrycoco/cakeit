@@ -1,8 +1,8 @@
 import React from "react"
-import { Wrapper, HomeImage } from "./StaticPost.styles"
+import { Wrapper, FeaturedImage } from "./Blurb.styles"
 
 //here we use the styled component for image rendering from regular uri
-const StaticPost = ({ dataHook }) => {
+const Blurb = ({ dataHook }) => {
   const data = dataHook() //run the hook
   const imageData = data.featuredImage
     ? data.featuredImage.node.localFile.publicURL
@@ -11,7 +11,7 @@ const StaticPost = ({ dataHook }) => {
 
   return (
     <Wrapper>
-      {imageData ? <HomeImage image={imageData}></HomeImage> : null}
+      {imageData ? <FeaturedImage image={imageData}></FeaturedImage> : null}
       <div className="about-text">
         <div dangerouslySetInnerHTML={{ __html: data.content }} />
       </div>
@@ -19,4 +19,4 @@ const StaticPost = ({ dataHook }) => {
   )
 }
 
-export default StaticPost
+export default Blurb
