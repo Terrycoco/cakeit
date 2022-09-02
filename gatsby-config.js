@@ -37,8 +37,8 @@ module.exports = {
     {
       resolve: `gatsby-source-wordpress`,
       options: {
-        //url: `https://wp.cakeit.terrymarr.com/graphql`,
         url: process.env.WP_DATA_URL,
+        //url: `https://wp.cakeit.terrymarr.com/graphql`,
       },
     },
     `gatsby-plugin-styled-components`,
